@@ -4,6 +4,10 @@ The Slap Object Game - Part 1
 
 Objective:
 
+
+* = Objective Done
+!* = Objective incomplete
+
 Students will use javascript in order to interact with the DOM to create a dynamic webpage. Since students will work in groups they will practice using a shared repository or may use pull requests.
 
 Step 1 - GIT - Project Initialization
@@ -21,7 +25,7 @@ Step 2 - HTML - Create page layout and Slap button
 *link bootstrap game.js and game.css to index.html.
 Start by adding a bootstrap panel with a header, body and footer. http://getbootstrap.com/components/#panels
 Add an image to the body of a stick figure with a width of 200px
-Add a button to the footer with the text "Slap"
+!* (Need footer) Add a button to the footer with the text "Slap"
 
 
 
