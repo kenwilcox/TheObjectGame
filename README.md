@@ -8,17 +8,17 @@ Students will use javascript in order to interact with the DOM to create a dynam
 
 Step 1 - GIT - Project Initialization
 
-Everyone should break into groups of 2 or 3.
-A member of the group should create a git repository named TheObjectGame
-Create the file index.html and a script file called game.js and a css file name game.css.
-Commit changes and push them back to GitHub.
-Each team member should then clone the repository via GIT.
+*Everyone should break into groups of 2 or 3.
+*A member of the group should create a git repository named TheObjectGame
+*Create the file index.html and a script file called game.js and a css file name game.css.
+*Commit changes and push them back to GitHub.
+*Each team member should then clone the repository via GIT.
 
 
 
 Step 2 - HTML - Create page layout and Slap button
 
-link bootstrap game.js and game.css to index.html.
+*link bootstrap game.js and game.css to index.html.
 Start by adding a bootstrap panel with a header, body and footer. http://getbootstrap.com/components/#panels
 Add an image to the body of a stick figure with a width of 200px
 Add a button to the footer with the text "Slap"
