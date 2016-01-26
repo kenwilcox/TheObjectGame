@@ -29,6 +29,7 @@ Add an image to the body of a stick figure with a width of 200px
 
 
 
+
 Step 3 - JS - Declare variables and write the Slap function
 
 create a global variable: var health=100;
