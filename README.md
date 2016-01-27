@@ -32,13 +32,13 @@ Step 2 - HTML - Create page layout and Slap button
 
 Step 3 - JS - Declare variables and write the Slap function
 
-create a global variable: var health=100;
-create a function: slap()
-have the function reduce the health variable by 1.
-for now, have the function alert(health).
-test the function by calling slap() at the end of the game.js file.
-you should see an alert of 99 show on the screen.
-if this is working, remove the test to prevent popups on every page load.
+*create a global variable: var health=100;
+*create a function: slap()
+*have the function reduce the health variable by 1.
+*for now, have the function alert(health).
+*test the function by calling slap() at the end of the game.js file.
+*you should see an alert of 99 show on the screen.
+*if this is working, remove the test to prevent popups on every page load.
 
 
 
@@ -47,7 +47,7 @@ Step 4 - HTML - Link the Slap button to the Slap function
 *On the slap button element, add the attribute onClick="slap()"
 if things are working properly you should be able to hit the slap button and see the alert window with a decrease in health.
 *To prevent having to show the players health in popup, let's link the player's health directly to the user interface.
-Add a span element to the header for the players health: example - Health:--
+*Add a span element to the header for the players health: example - Health:--
 the id is important so we can call the element from JS easily.
 
 
