@@ -23,9 +23,9 @@ Step 1 - GIT - Project Initialization
 Step 2 - HTML - Create page layout and Slap button
 
 *link bootstrap game.js and game.css to index.html.
-Start by adding a bootstrap panel with a header, body and footer. http://getbootstrap.com/components/#panels
-Add an image to the body of a stick figure with a width of 200px
-!* (Need footer) Add a button to the footer with the text "Slap"
+*Start by adding a bootstrap panel with a header, body and footer. http://getbootstrap.com/components/#panels
+*Add an image to the body of a stick figure with a width of 200px
+* (Need footer) Add a button to the footer with the text "Slap"
 
 
 
@@ -44,9 +44,9 @@ if this is working, remove the test to prevent popups on every page load.
 
 Step 4 - HTML - Link the Slap button to the Slap function
 
-On the slap button element, add the attribute onClick="slap()"
+*On the slap button element, add the attribute onClick="slap()"
 if things are working properly you should be able to hit the slap button and see the alert window with a decrease in health.
-To prevent having to show the players health in popup, let's link the player's health directly to the user interface.
+*To prevent having to show the players health in popup, let's link the player's health directly to the user interface.
 Add a span element to the header for the players health: example - Health:--
 the id is important so we can call the element from JS easily.
 
