@@ -1,5 +1,5 @@
 var health = 100;
-var pcname 
+var pcname =
 
 function slap(){
       health -= 1
