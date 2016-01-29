@@ -34,6 +34,6 @@ function test(){
 
 function update(){
     document.getElementById("pchp").innerText = health.toString();
-    document.getElementById("pchits").innerText = hit.toString();
+    document.getElementById("pchit").innerText = hit.toString();
 }
 update()
