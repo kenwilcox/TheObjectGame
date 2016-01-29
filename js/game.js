@@ -1,5 +1,6 @@
 var health = 100;
-var pcname = "";
+var pcname ="";
+
 
 function slap(){
       health -= 1
@@ -7,8 +8,8 @@ function slap(){
 }
 
 function kick(){
-      health -= 10
-    update(health);
+    health -= 10
+  update(health);
 }
 
 
