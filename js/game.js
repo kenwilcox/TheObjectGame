@@ -49,7 +49,6 @@ function test() {
 
 function update() {
     document.getElementById("pchp").innerText = player.health.toString();
-    document.getElementById("pchit").innerText = player.hit.toString();
-    alert(JSON.stringify(player.items));
+    document.getElementById("pchit").innerText = player.hit.toString();    
 }
 update();
