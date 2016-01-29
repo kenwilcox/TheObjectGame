@@ -6,17 +6,21 @@ function slap(){
       health -= 1
       hit += 1
     update(health);
-    update(hit)
+    update(hit);
 }
 
 function kick(){
     health -= 10
     hit += 1
+    update(hit);
+    update(health);
 }
 
 function punch(){
     health -= 5
     hit += 1
+    update(hit);
+    update(health);
 }
 
 
