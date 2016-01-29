@@ -1,26 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <script>
+    <title>Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" " href="css/game.css " rel="stylesheet ">
+    </head>
+<body>
+    
+    <script>
+        var Dog = function(namex, typex){
+            this.name = namex;
+            this.type = typex;
+            this.eat = function (){
+                
+                
+            }
+        }    
+        
+        var dogs = {
+            dog1: new Dog("ralph", "dalmation"),
+            dog2: new Dog("sandy", "dalmation")
+        }
+        
+        
+        
+    </script>
 
-      function doStuff()
-      {
-        var nameElement = document.getElementById("someInput");
-        var theName = nameElement.value;
-        document.getElementById("someDiv").innerHTML += theName;
-      }
 
-  </script>
-</head>
 
-<html>
 
-  <div id="someDiv">
-    Hello
-  </div>
-
-  <br><br>
-
-  <input id="someInput" type="text">
-  <input type="button" value="Say Hello" onClick="doStuff()">
-
-  <br>    
+  
+</body>
 </html>
