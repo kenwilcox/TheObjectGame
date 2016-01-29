@@ -1,5 +1,5 @@
 var health = 100;
-var pcname =
+var pcname = "";
 
 function slap(){
       health -= 1
@@ -11,10 +11,7 @@ function kick(){
     update(health);
 }
 
-function update(){
-    document.getElementById("pchp").innerText = health.toString();
-}
-update()
+
 
 
 
@@ -22,3 +19,8 @@ function test(){
     var userInput = document.getElementById("userInput").value;
     document.getElementById("pcname").innerHTML = userInput;
 }
+
+function update(){
+    document.getElementById("pchp").innerText = health.toString();
+}
+update()
