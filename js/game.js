@@ -2,11 +2,10 @@ var Player = function(){
     this.health = 100;
     this.pcname ="";
     this.hit = 0;
+    
 }
 var player = new Player();
-//var health = 100;
-//var pcname ="";
-//var hit = 0;
+
 
 function slap() {
     player.health -= 1;
@@ -50,10 +49,8 @@ var Item = function(name, modifier, description){
     }
 }
 var items = {
-    shield:new Item("Shield",0.3,"This is an awesome shield!"),
-    sword:new Item("Sword",0.5,"Amazing Sword of Epic Death"),
-    crossbow:new Item("Crossbow",0.2,"Bang, you're dead!"),
-    mace:new Item("Mace",0.3,"Big Stick of Blunt Trauma!"),
-    helmet:new Item("Helmet",0.2,"Solid Head Protection!"),
-    breastplate:new Item("Breastplate",0.4,"Big, ugly and safe"),
+    shield: new Item("Shield",0.3,"This is an awesome shield!"),
+    sword :new Item("Sword",0.5,"Amazing Sword of Epic Death"),
+    helmet: new Item("Helmet",0.2,"Solid Head Protection!"),
+    breastplate: new Item("Breastplate",0.4,"Big, ugly and safe"),
 }
