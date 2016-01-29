@@ -25,8 +25,6 @@ function punch(){
 
 
 
-
-
 function test(){
     var userInput = document.getElementById("userInput").value;
     document.getElementById("pcname").innerHTML = userInput;
