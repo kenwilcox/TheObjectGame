@@ -5,22 +5,21 @@ var hit = 0;
 function slap(){
       health -= 1
       hit += 1
-    update(health);
-    update(hit);
+    update();
 }
 
 function kick(){
     health -= 10
     hit += 1
-    update(hit);
-    update(health);
+    update();
+    //update(health);
 }
 
 function punch(){
     health -= 5
     hit += 1
-    update(hit);
-    update(health);
+    update();
+    //update(health);
 }
 
 
